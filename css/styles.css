@@ -5,7 +5,7 @@ nav {
     position: sticky;
 }
 .border {
-    border: #000000 1px solid;
+    border: #000000 2px solid;
 }
 header, footer {
     height: 95px;
@@ -28,10 +28,10 @@ aside {
     float: left;
 }
 .article-section {
-    width: 65%;
+    width: 60%;
 }
 .aside {
-    width: 35%;
+    width: 40%;
 }
 img {
     width: 100%;
