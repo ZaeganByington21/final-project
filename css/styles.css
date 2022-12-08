@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+nav {
+    position: sticky;
+}
+.border {
+    border: #000000 1px solid;
+}
+header, footer {
+    height: 95px;
+    background-color: #faebd7;
+}
+li {
+    display: inline-block;
+    margin: 10px;
+}
+section, article {
+    height: 300px;
+}
+aside {
+    height: 600px;
+
+    background-size: cover;
+    background-position: center;
+}
+.on-left {
+    float: left;
+}
+.article-section {
+    width: 65%;
+}
+.aside {
+    width: 35%;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+.clearfix {
+    clear: both;
+}
+a:visited {
+    color: #800080;
+}
+a:link {
+    color: #0000ff;
+}
+a {
+    color: #0000ff;
+}
+a:hover {
+    color: #ffc0cb;
+}
