@@ -2,14 +2,18 @@
     box-sizing: border-box;
 }
 nav {
-    position: sticky;
+    background-color: #808080;
+    text-align: right;
 }
 .border {
-    border: #000000 2px solid;
+    border: #000000 1px solid;
 }
 header, footer {
     height: 95px;
     background-color: #faebd7;
+}
+h1 {
+    text-align: center;
 }
 li {
     display: inline-block;
@@ -19,8 +23,7 @@ section, article {
     height: 300px;
 }
 aside {
-    height: 600px;
-
+    height: 616px;
     background-size: cover;
     background-position: center;
 }
@@ -51,4 +54,7 @@ a {
 }
 a:hover {
     color: #ffc0cb;
+}
+.float-right {
+    float: none;
 }
