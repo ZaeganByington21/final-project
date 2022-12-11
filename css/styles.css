@@ -1,15 +1,45 @@
 * {
     box-sizing: border-box;
 }
+body, html {
+    height: 100%;
+}
+.hero-image {
+  background-image: linear-gradient(#00000080, #00000080), url(../img/IMG_4505.jpg);
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+}
+.img {
+    height: 100px;
+    width: 100px;
+}
 nav {
-    background-color: #808080;
-    text-align: right;
+    background-color: #faebd7;
+}
+img {
+    height: 120px;
+    width: 175px;
 }
 .border {
     border: #000000 1px solid;
 }
-header, footer {
-    height: 95px;
+header{
+    height: 175px;
+    background-color: #faebd7;
+}
+footer {
+    height: 350px;
     background-color: #faebd7;
 }
 h1 {
@@ -18,27 +48,26 @@ h1 {
 li {
     display: inline-block;
     margin: 10px;
+    padding: 10px;
 }
 section, article {
     height: 300px;
+    background-color: #faebd7;
 }
 aside {
-    height: 616px;
+    height: 600px;
     background-size: cover;
     background-position: center;
+    background-color: #faebd7;
 }
 .on-left {
     float: left;
 }
 .article-section {
-    width: 60%;
+    width: 65%;
 }
 .aside {
-    width: 40%;
-}
-img {
-    width: 100%;
-    height: 100%;
+    width: 35%;
 }
 .clearfix {
     clear: both;
@@ -55,6 +84,52 @@ a {
 a:hover {
     color: #ffc0cb;
 }
-.float-right {
-    float: none;
+label {
+    display: block;
+    font: 12pt 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+    margin: 12pt;
+}
+.styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: #0000ff;
+    background-image: linear-gradient(to top left,
+    #00000033,
+    #00000033 30%,
+    #00000000);
+    box-shadow: inset 2px 2px 3px #ffffff99,
+    inset -2px -2px 3px #00000099;
+}   
+.styled:hover {
+    background-color: #ffc0cb;
+} 
+.styled:active {
+    box-shadow: inset -2px -2px 3px #ffffff99,
+    inset 2px 2px 3px #00000099;
+}
+.logo-size {
+    height: 200px;
+    width: 350px;
+}
+.fa {
+padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
 }
