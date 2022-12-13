@@ -1,12 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 * {
     box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
 }
 body, html {
     height: 100%;
+    background-color: tan;
 }
 .hero-image {
-  background-image: linear-gradient(#00000080, #00000080), url(../img/IMG_4505.jpg);
-  height: 50%;
+  background-image: linear-gradient(#00000080, #00000080), url("../img/IMG_4505.jpg");
+  height: 70%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -20,30 +23,41 @@ body, html {
   transform: translate(-50%, -50%);
   color: #ffffff;
 }
-.img {
-    height: 100px;
-    width: 100px;
-}
-nav {
-    background-color: #faebd7;
-}
 img {
     height: 120px;
     width: 175px;
+}
+.img-size {
+    height: 175px;
+    width: 225px;
+}
+.before-position {
+    position: absolute;
+    left: 100px;
+}
+.during-position {
+    position: absolute;
+    left: 370px;
+}
+.after-position {
+    position: absolute;
+    left: 660px;
 }
 .border {
     border: #000000 1px solid;
 }
 header{
     height: 175px;
-    background-color: #faebd7;
+    
 }
 footer {
     height: 350px;
-    background-color: #faebd7;
 }
 h1 {
     text-align: center;
+}
+ul {
+    float: right;
 }
 li {
     display: inline-block;
@@ -52,16 +66,18 @@ li {
 }
 section, article {
     height: 300px;
-    background-color: #faebd7;
 }
 aside {
     height: 600px;
     background-size: cover;
     background-position: center;
-    background-color: #faebd7;
+    
 }
 .on-left {
     float: left;
+}
+.float-right {
+    float: right;
 }
 .article-section {
     width: 65%;
@@ -80,9 +96,11 @@ a:link {
 }
 a {
     color: #0000ff;
+    text-decoration: none;
 }
 a:hover {
     color: #ffc0cb;
+    text-decoration: underline;
 }
 label {
     display: block;
