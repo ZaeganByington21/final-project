@@ -51,7 +51,8 @@ header{
     
 }
 footer {
-    height: 350px;
+    height: 150px;
+    text-align: center;
 }
 h1 {
     text-align: center;
@@ -106,8 +107,6 @@ label {
     display: block;
     font: 12pt 'Fira Sans', sans-serif;
 }
-
-input,
 label {
     margin: 12pt;
 }
@@ -136,18 +135,39 @@ label {
     inset 2px 2px 3px #00000099;
 }
 .logo-size {
-    height: 200px;
-    width: 350px;
+    height: 150px;
+    width: 250px;
 }
 .fa {
-padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-}
-.fa-facebook {
+    padding: 20px;
+    font-size: 50px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  .fa-facebook {
     background: #3B5998;
-    color: white;
-}
+    color: #ffffff;
+    position: absolute;
+    left: 710px;
+    top: 1230px;
+  }
+  .bbb-position {
+    position: absolute;
+    top: 1200px;
+    left: 450px;
+  }
+  .david-position {
+    position: absolute;
+    right: 625px;
+  }
+  .stars-position {
+    position: absolute;
+    top: 750px;
+    right: 75px;
+  }
+  .stars-size {
+    height: 300px;
+    width: 300px;
+  }
