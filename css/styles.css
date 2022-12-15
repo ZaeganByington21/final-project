@@ -194,3 +194,7 @@ label {
     left: 700px;
     top: 812px;
   }
+  .video {
+    display: inline-block;
+    margin-left: 13rem;
+  }
