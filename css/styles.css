@@ -68,6 +68,9 @@ li {
 section, article {
     height: 300px;
 }
+.section-middle {
+    text-align: center;
+}
 aside {
     height: 600px;
     background-size: cover;
@@ -150,12 +153,10 @@ label {
     background: #3B5998;
     color: #ffffff;
     position: absolute;
-    left: 710px;
-    top: 1230px;
   }
   .bbb-position {
     position: absolute;
-    top: 1200px;
+    top: 1230px;
     left: 450px;
   }
   .david-position {
@@ -170,4 +171,26 @@ label {
   .stars-size {
     height: 300px;
     width: 300px;
+  }
+  .facebook-position {
+    left: 710px;
+    top: 1260px;
+  }
+  .map {
+    margin-left: 12rem;
+    display: inline-block;
+  }
+  .bbb-position2 {
+    position: absolute;
+    left: 450px;
+  }
+  .facebook-position2 {
+    position: absolute;
+    left: 700px;
+    top: 617px;
+  }
+  .facebook-position3 {
+    position: absolute;
+    left: 700px;
+    top: 812px;
   }
